@@ -1,0 +1,22 @@
+<APPLICATIONS>
+    <APPLICATION>
+        <NAME>Jar</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/trunk/Exemplos/TuGA.ex01/distro/tuga.ex01.jar</PATH>
+        <XLET>exemplo.TuGA.ex01.Xletmain</XLET>
+    </APPLICATION>
+    <APPLICATION>
+        <NAME>Sprite</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/trunk/Demo/bin</PATH>
+        <XLET>sprite.Xletmain</XLET>
+    </APPLICATION>
+    <APPLICATION>
+        <NAME>Tuga.ex01</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/project/Exemplos/TuGA.ex01/bin</PATH>
+        <XLET>exemplo.TuGA.ex01.Xletmain</XLET>
+    </APPLICATION>
+    <APPLICATION>
+        <NAME>Xlet7</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/trunk/Xlet_07/bin</PATH>
+        <XLET>Xletmain</XLET>
+    </APPLICATION>
+</APPLICATIONS>
