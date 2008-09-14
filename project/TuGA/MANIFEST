@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: TuGA Game API - LGPL
+Class-Path: .
+Name: TuGA Game API
+Specification-Title: Middleware for Games in Digital TV
+Implementation-Title: TuGA
+Specification-Version: 1.0
+Specification-Vendor: DukItan Software
+Implementation-Version: 1.0
+Implementation-Vendor: DukItan Software
