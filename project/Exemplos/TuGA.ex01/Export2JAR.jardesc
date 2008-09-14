@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<jardesc>
+    <jar path="/home/desenvolvimento/tuga-sdk/distro/Exemplos/current/tuga.ex01.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/TuGA.ex01/Export2JAR.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/TuGA.ex01/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/TuGA.ex01/GPL.txt"/>
+        <file path="/TuGA.ex01/GPL-pt_BR.txt"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src"/>
+    </selectedElements>
+</jardesc>
