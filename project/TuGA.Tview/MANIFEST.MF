@@ -1,0 +1,11 @@
+Manifest-Version: 1.2
+Created-By: 1.4.0 (Sun Microsystems Inc.)
+Class-Path: . jars/metouia.jar jars/davic.jar jars/havi.jar jars/dvb.jar jars/tuga-runtime.jar jars/cake.jar jars/javassist.jar jars/manoxml-2.2.3.jar jars/JMF2.1.1/lib/jmf.jar
+Main-Class: net.beiker.xletview.Main
+Name: TuGA Tview
+Specification-Title: TuGA Tview - iTV Emulator
+Implementation-Title: TuGA Tview
+Specification-Version: 1.0
+Specification-Vendor: XletView
+Implementation-Version: 1.0
+Implementation-Vendor: DukItan Software

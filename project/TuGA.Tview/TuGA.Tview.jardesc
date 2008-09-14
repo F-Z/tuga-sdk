@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<jardesc>
+    <jar path="/home/desenvolvimento/tuga-sdk/distro/TuGA.Tview/current/tugatview.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/TuGA.Tview/TuGA.Tview.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/TuGA.Tview/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/TuGA.Tview/GPL.txt"/>
+        <file path="/TuGA.Tview/GPL-pt_BR.txt"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src"/>
+    </selectedElements>
+</jardesc>

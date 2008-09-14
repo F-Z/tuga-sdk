@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.6.0_07"/>
+	<classpathentry kind="var" path="TuGA-SDK/javassist.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/havi.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/nanoxml-2.2.3.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/davic.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/cake.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/metouia.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/JMF2.1.1/lib/jmf.jar"/>
+	<classpathentry kind="var" path="TuGA-SDK/dvb.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
