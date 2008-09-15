@@ -12,5 +12,5 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-= Dowload =
+= Download =
 http://code.google.com/p/tuga-sdk/downloads/list?q=type%3AEmulator
