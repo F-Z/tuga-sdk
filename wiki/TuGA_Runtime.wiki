@@ -13,4 +13,4 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 = Download =
-[http://code.google.com/p/tuga-sdk/downloads/list?can=2&q=Middleware%20type:Middleware&colspec=Filename%20Summary%20Type%20Size%20Download%20Count Veja a Lista] 
+http://code.google.com/p/tuga-sdk/downloads/list?q=type%3ARuntime
