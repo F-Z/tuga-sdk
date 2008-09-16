@@ -10,11 +10,9 @@ Em breve...
 O processo de depuração de um xlet, é um pouco complexo, principalmente por não termos suporte nativo nas principais IDEs para depuração deste ambiente, visto que até o momento, as ides não disponibilizam de um container xlet (algo similar ao container de um middlet ou applet), o que dificulta e muito a descoberta e prevenção de erros.
 Tentando reduzir os imprevistos, o TuGA.Runtime, disponibiliza por meio de logs os principais estados da aplicação, como podemos observar na Figura 1.
 
-----
 
 || http://tuga-sdk.googlecode.com/svn/wiki/TuGA.console.01.jpg || _Figura 1. Shell Linux com as informações do log_ ||
 
-----
 
 Para melhor entendermos o que ocorre nos logs, as mensagens foram categorizadas de acordo com sua origem e seu grau de importancia. O código é delimitado por '[' e ']', sendo representado por quatro(4) caracteres, os quais as palavras chaves tem o seguinte significado:
   *  MIDD, MIDDleware informa sobre os processo de gerenciamento básico;
