@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#É o software capaz de emular algumas funções dos dispositivos(set-top-box) receptores da TV Digital.
 
 =TuGA.Tview=
 É o software capaz de emular algumas funções dos dispositivos(set-top-box) receptores da TV Digital.
