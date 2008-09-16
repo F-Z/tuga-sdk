@@ -12,9 +12,7 @@ Tentando reduzir os imprevistos, o TuGA.Runtime, disponibiliza por meio de logs 
 
 ----
 
-http://tuga-sdk.googlecode.com/svn/wiki/TuGA.console.01.jpg
-
-_Figura 1. Shell Linux com as informações do log_
+|| http://tuga-sdk.googlecode.com/svn/wiki/TuGA.console.01.jpg || _Figura 1. Shell Linux com as informações do log_ ||
 
 ----
 
