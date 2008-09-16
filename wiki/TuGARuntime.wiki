@@ -1,5 +1,4 @@
 #summary Middleware para suporte a jogos na TV Digital
-#labels Featured
 
 
 
