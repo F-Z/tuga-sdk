@@ -1,5 +1,4 @@
 #summary Exemplos de utilização da plataforma TuGA
-#labels Featured
 
 = TuGA.Examples =
 
