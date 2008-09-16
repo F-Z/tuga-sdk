@@ -1,6 +1,12 @@
 #summary Middleware para suporte a jogos na TV Digital
 
 
+= TuGA.Runtime =
+
+== LOG  ==
+O Middleware, permite que o desenvolvedor possa verificar o estado de execução do xlet, por meio de avisos no console.
+
+http://tuga-sdk.googlecode.com/svn/wiki/TuGA.Ex01.jpg
 
 
 = Download =
