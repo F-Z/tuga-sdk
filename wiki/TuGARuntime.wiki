@@ -4,9 +4,12 @@
 = TuGA.Runtime =
 
 == LOG  ==
-O Middleware, permite que o desenvolvedor possa verificar o estado de execução do xlet, por meio de avisos no console.
+O processo de depuração de um xlet, é um pouco complexo, principalmente por não termos suporte nativo nas principais IDEs para depuração deste ambiente, visto que até o momento, as ides não disponibilizam de um container xlet (algo similar ao container de um middlet ou applet), o que dificulta e muito a descoberta e prevenção de erros.
+Tentando reduzir os imprevistos, o TuGA.Runtime, disponibiliza por meio de logs os principais estados da aplicação, como podemos observar na figura 1.
+O Middleware, permite que o desenvolvedor possa verificar o estado de execução do xlet, por meio de avisos no console, 
 
-http://tuga-sdk.googlecode.com/svn/wiki/TuGA.Ex01.jpg
+http://tuga-sdk.googlecode.com/svn/wiki/TuGA.console.01.jpg
+_Figura 1. Shell com o log_
 
 
 = Download =
