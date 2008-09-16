@@ -3,15 +3,37 @@
 
 = TuGA.Runtime =
 
+== Camadas ==
+Em breve...
+
 == LOG  ==
 O processo de depuração de um xlet, é um pouco complexo, principalmente por não termos suporte nativo nas principais IDEs para depuração deste ambiente, visto que até o momento, as ides não disponibilizam de um container xlet (algo similar ao container de um middlet ou applet), o que dificulta e muito a descoberta e prevenção de erros.
 Tentando reduzir os imprevistos, o TuGA.Runtime, disponibiliza por meio de logs os principais estados da aplicação, como podemos observar na figura 1.
-O Middleware, permite que o desenvolvedor possa verificar o estado de execução do xlet, por meio de avisos no console, 
+
 
 http://tuga-sdk.googlecode.com/svn/wiki/TuGA.console.01.jpg
-_Figura 1. Shell com o log_
+
+_Figura 1. Shell Linux com as informações do log_
 
 
+Para melhor entendermos o que ocorre nos logs, as mensagens foram categorizadas de acordo com sua origem e seu grau de importancia. O código é delimitado por '[' e ']', sendo representado por quatro(4) caracteres, os quais as palavras chaves tem o seguinte significado:
+  *  MIDD, MIDDleware informa sobre os processo de gerenciamento básico;
+  *  SYST, SYSTem informa sobre as características do ambiente Java, Sistema Operacional e dispositivos;
+  *  _GBF, GBFramework informa sobre o funcionamento do framework para jogos;
+
+  *  LOAD, informa sobre o carregamento de arquivos;
+  *  PROC, informa sobre algum processamento mais demorado(pesado) que seja critico;
+  *  DELE, informa sobre a remoção(delete) de recursos;
+
+Podemos ainda encontrar marcadores de inicio e fim, como pode ser visto na Figura 1, onde temos:
+
+{{{
+[_GBF]-> WriteSystemManager - size:1
+[DELE] Font: 'texto' [Ok]
+[_GBF]<- WriteSystemManager
+}}}
+
+Onde o par de setas '->' e '<-' informam inicio e fim da operação, no caso a classe WriteSystemManager é um container que está removendo todos os objetos que gerencia.
 = Download =
 
 Para baixar escolha a versão desejada:
