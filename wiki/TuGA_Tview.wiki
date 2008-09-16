@@ -1,4 +1,4 @@
-#É o software capaz de emular algumas funções dos dispositivos(set-top-box) receptores da TV Digital.
+#summary Ambiente de emulação/simulação para TV Digital.
 
 =TuGA.Tview=
 É o software capaz de emular algumas funções dos dispositivos(set-top-box) receptores da TV Digital.
