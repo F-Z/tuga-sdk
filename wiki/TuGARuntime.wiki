@@ -8,6 +8,13 @@
 
 Como podemos observar na Figura 1, a plataforma TuGA propõe um possível modelo de camadas, porém como sabemos dificilmente uma camada poderá ou deverá suportar todas os recursos necessários.
 
+|| http://tuga-sdk.googlecode.com/svn/docs/figuras/tuga_pacotes.jpg || Onde, a plataforma TuGA apresentará grande interação com os recursos fornecidos pelo ambiente java, e poderá fazer interface com a camada ginga(quando esta for disponibilizada para o público - Previsão Outubro de 2008). Podemos ver que a camada TuGA é divida em dois principais pacotes, *org.tuga.middleware* e *org.tuga.framework* ||
+
+
+=== org.tuga.middleware ===
+
+=== org.tuga.framework ===
+
 == LOG  ==
 O processo de depuração de um xlet, é um pouco complexo, principalmente por não termos suporte nativo nas principais IDEs para depuração deste ambiente, visto que até o momento, as ides não disponibilizam de um container xlet (algo similar ao container de um middlet ou applet), o que dificulta e muito a descoberta e prevenção de erros.
 Tentando reduzir os imprevistos, o TuGA.Runtime, disponibiliza por meio de logs os principais estados da aplicação, como podemos observar na Figura 2.
