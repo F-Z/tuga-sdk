@@ -7,6 +7,8 @@ O TuGA.Tview, é na verdade uma composição dos seguintes recursos:
   *  Xletview, um emulador opensource para xlet(classes especiais do JavaTV);
   *  Library, o ambiente acompanha as principais libraries para a execução e desenvolvimento de seus programas;
 
+|| http://tuga-sdk.googlecode.com/svn/docs/figuras/TuGA.Tview.01.jpg || Figura 1. Emulador TuGA.Tview (_baseado no Xletview_) ||
+
 Onde o software livre [http://xletview.sourceforge.net Xletview] (GPL), foi modificado para incorporar algumas funcionalidades para melhorar sua simulação. Onde destacamos:
 
   *  Sistema de Eventos: Tratamento no sistema de eventos do controle remoto, ao clicar nas opções do controle, os eventos necessários são gerados e lançados para o ambiente, o que por sua vez permite que o middleware do TuGA (TuGA.Runtime) possa tratar os eventos para os jogos;
