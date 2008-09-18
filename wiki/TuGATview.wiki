@@ -19,5 +19,5 @@ Onde o software livre [http://xletview.sourceforge.net Xletview] (GPL), foi modi
 Para baixar escolha a versão desejada:
 
   * TuGA.Tview.1.0
-    * [http://code.google.com/p/tuga-sdk/downloads/detail?name=TuGA.Tview.1.0.bin.all.zip GoogleCode] 
-    * [https://www.ohloh.net/projects/tuga/download?package=TuGA.Tview&release=v1.0 Ohloh]
+    * [http://code.google.com/p/tuga-sdk/downloads/detail?name=TuGA.Tview.1.0.bin.all.zip in GoogleCode] 
+    * [https://www.ohloh.net/projects/tuga/download?package=TuGA.Tview&release=v1.0 in Ohloh]
