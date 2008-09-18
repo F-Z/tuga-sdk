@@ -11,8 +11,20 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;exemplo.TuGA.ex01.game"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga.data.kernel.fonte"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga.data"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;exemplo.TuGA"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga.data.kernel"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga.data.etc"/>
         <file path="/TuGA.ex01/GPL.txt"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org"/>
         <file path="/TuGA.ex01/GPL-pt_BR.txt"/>
-        <javaElement handleIdentifier="=TuGA.ex01/src"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;exemplo.TuGA.ex01.game.entidade"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;exemplo.TuGA.ex01"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga.data.kernel.imagem"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;org.tuga.data.etc.idioma"/>
+        <javaElement handleIdentifier="=TuGA.ex01/src&lt;exemplo"/>
     </selectedElements>
 </jardesc>

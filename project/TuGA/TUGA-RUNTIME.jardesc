@@ -11,7 +11,41 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
-        <javaElement handleIdentifier="=TuGA/src"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.userinterface"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.exception"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.data.etc.idioma"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.fps"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.sound"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.graphic.imagem.tipo"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.data.kernel.imagem"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.personagem"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.timer"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.cor"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.input"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.particlesystem"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.graphic.imagem"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.base"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gam"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.file"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.graphic"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.data.kernel.fonte"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.util"/>
+        <file path="/TuGA/authors"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.write"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.data.kernel"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.imagem.layer"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.kernel.graphic"/>
         <file path="/TuGA/copying"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.data"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.imagem.sprite"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.base"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.middleware.input"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.data.etc"/>
+        <javaElement handleIdentifier="=TuGA/src&lt;org.tuga.framework.gbf.imagem"/>
     </selectedElements>
 </jardesc>

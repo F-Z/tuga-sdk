@@ -11,8 +11,57 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.xlet"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.old"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.util"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.media"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.xlet"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.net"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.embed"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.service"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjava.awt"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.timer"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.service.navigation"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.ui.theme"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.net"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.tv.service"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.graphics"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.io"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjava"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.event"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.tv.media"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.ui"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.helper"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.service.selection"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.service"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.media.protocol"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.tv.util"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.si"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv"/>
+        <file path="/TuGA.Tview/authors"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.tv.service.selection"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.remotecontrol"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.application"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.app"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.ui.tree"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.locator"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.service.transport"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjava.io"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjava.lang"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview"/>
         <file path="/TuGA.Tview/GPL.txt"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.media"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.window"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.classloader"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.download"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.util"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.locator"/>
         <file path="/TuGA.Tview/GPL-pt_BR.txt"/>
-        <javaElement handleIdentifier="=TuGA.Tview/src"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;xjavax.tv.service.guide"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.tv"/>
+        <javaElement handleIdentifier="=TuGA.Tview/src&lt;net.beiker.xletview.ui.frame"/>
     </selectedElements>
 </jardesc>
