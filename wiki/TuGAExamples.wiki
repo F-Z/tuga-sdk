@@ -10,4 +10,4 @@ Para baixar escolha a versão desejada:
 
   * TuGA.ex01 (Testando as teclas de cores - Testing colored keys) 
     * [https://www.ohloh.net/projects/tuga/download?package=TuGA.Examples&release=Ex.01 in ohloh] 
-    * [http://code.google.com/p/tuga-sdk/downloads/detail?name=tuga.ex01.jar in GoogleCode] 
+    * [http://tuga-sdk.googlecode.com/files/tuga.ex01.jar in GoogleCode] 
