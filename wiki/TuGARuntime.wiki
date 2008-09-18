@@ -65,4 +65,4 @@ Para baixar escolha a versão desejada:
 
   * TuGA.Runtime.1.0
     * [https://www.ohloh.net/projects/tuga/download?package=TuGA.Runtime&release=v1.0 in Oloho]
-    * [http://code.google.com/p/tuga-sdk/downloads/detail?name=TuGA.Runtime.1.0.bin.all.zip in GoogleCode]
+    * [http://tuga-sdk.googlecode.com/files/TuGA.Runtime.1.0.bin.all.zip in GoogleCode]
