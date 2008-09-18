@@ -63,4 +63,6 @@ Onde o par de setas '->' e '<-' informam inicio e fim da operação, no caso a c
 
 Para baixar escolha a versão desejada:
 
-    * [https://www.ohloh.net/projects/tuga/download?filename=TuGA.Runtime.1.0.bin.all.zip TuGA.Runtime.1.0] (Recommend - Recomendada) 
+  * TuGA.Runtime.1.0
+    * [https://www.ohloh.net/projects/tuga/download?package=TuGA.Runtime&release=v1.0 in Oloho]
+    * [http://code.google.com/p/tuga-sdk/downloads/detail?name=TuGA.Runtime.1.0.bin.all.zip in GoogleCode]
