@@ -67,13 +67,11 @@ public class Xletmain implements Xlet
 			e.printStackTrace();
 		} finally {
             game.finalizar();
-		}
-		
+		}		
 	}
 
 	public void pauseXlet() 
 	{
-
 	}
 
 	public void destroyXlet(boolean unconditional) throws XletStateChangeException 
