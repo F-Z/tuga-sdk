@@ -35,9 +35,26 @@ public class KeyButton extends Container implements MouseListener{
     private KeyListener keyListener;
 	private Component listenerComponent;
     private int keyCode;
-
+   
     private int width;
     private int height;
+    
+/*
+ * TODO: TuGA - Otimizando o acesso a 'EventQueue'
+ * Por: David Ferreira <davidferreira.fz@gmail.com>
+ */
+	static private EventQueue eventQueue;   
+	
+    static private EventQueue getEventQueue()
+    {
+    
+    	if (eventQueue==null){
+    		eventQueue = new EventQueue();
+    	}
+    	
+    	return eventQueue;
+    }
+    
 
     public KeyButton(URL imgUrl, int keyCode){
         image = new Img(imgUrl);
@@ -45,7 +62,7 @@ public class KeyButton extends Container implements MouseListener{
         setSize(image.getSize());
         add(image);
         this.keyCode = keyCode;
-        addMouseListener(this);
+        addMouseListener(this);        
     }
     
     public KeyButton(URL imgUrl, int width, int height, int keyCode){
@@ -133,23 +150,21 @@ public class KeyButton extends Container implements MouseListener{
  */
     	AWTEvent event = e;
 		KeyEvent ke = new KeyEvent(this,KeyEvent.KEY_PRESSED,0,0,keyCode,'0');
-		EventQueue eq = new EventQueue();
-		eq.postEvent(ke);               
+		getEventQueue().postEvent(ke);
     }
 
     public void mouseReleased(MouseEvent e)
     {
         setNormal();
-
-        fireKeyEvent(KeyEvent.KEY_RELEASED);        
+        
+        fireKeyEvent(KeyEvent.KEY_RELEASED);
 /*
  * TODO: TuGA - Adicionando emulação de KeyEvent por meio de ações do mouse
  * Por: David Ferreira <davidferreira.fz@gmail.com>
  */
     	AWTEvent event = e;
 		KeyEvent ke = new KeyEvent(this,KeyEvent.KEY_RELEASED,0,0,keyCode,'0');
-		EventQueue eq = new EventQueue();
-		eq.postEvent(ke);       
+		getEventQueue().postEvent(ke);
     }
 
     public void mouseEntered(MouseEvent e){}
