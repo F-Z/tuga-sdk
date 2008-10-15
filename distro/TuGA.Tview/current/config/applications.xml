@@ -19,4 +19,9 @@
         <PATH>/home/desenvolvimento/tuga-sdk/trunk/Xlet_07/bin</PATH>
         <XLET>Xletmain</XLET>
     </APPLICATION>
+    <APPLICATION>
+        <NAME>XletPong</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/games/XletPong/bin</PATH>
+        <XLET>com.dukitan.xletpong.Xletmain</XLET>
+    </APPLICATION>
 </APPLICATIONS>
