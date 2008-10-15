@@ -88,7 +88,11 @@ public abstract class GameAbstract
     
     final public void finalizar()
     {
-		Toolkit.getDefaultToolkit().removeAWTEventListener(EventManager.getInstance());
+    	EventManager eventManager = EventManager.getInstance();
+    	//Liberando estado das teclas
+    	eventManager.dispose();
+    	
+		Toolkit.getDefaultToolkit().removeAWTEventListener(eventManager);
 		
         container.removeAll();
         container.setIgnoreRepaint(false);

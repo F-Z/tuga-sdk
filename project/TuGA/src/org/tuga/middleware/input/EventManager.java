@@ -74,5 +74,12 @@ public class EventManager implements AWTEventListener
 		return action;
 	}
 
+	/**
+	 * Reseta estado das teclas
+	 */
+	public void dispose()
+	{
+		action.clearState();
+	} 
 
 }

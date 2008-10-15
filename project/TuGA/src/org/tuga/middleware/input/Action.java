@@ -17,12 +17,13 @@ import java.awt.event.KeyEvent;
 
 public class Action implements Teclas
 {
-    protected boolean[] keys;	
+    protected boolean[] keys;
     
+    final static int TOTAL_TECLAS = 1024;
     
 	Action()
 	{
-		 keys = new boolean[1024];
+		 keys = new boolean[TOTAL_TECLAS];
 	}
 	
 	void keyPressed(KeyEvent e)
@@ -35,6 +36,12 @@ public class Action implements Teclas
 		keys[e.getKeyCode()] = false;
 	}
 	
+	void clearState()
+	{
+		for (int i=0; i<TOTAL_TECLAS; i++){
+			keys[i] = false;
+		}
+	}
 	
 	public boolean isKeyPressed(int keyCode)
 	{
