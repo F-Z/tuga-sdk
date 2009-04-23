@@ -62,7 +62,7 @@ public class WriteSystemManager extends InterfaceManager
         WriteSystemBitmap fonte = new WriteSystemBitmap();
 
         try {
-            if (fonte.carregar(getPathBase()+arquivo,width,height)){
+            if (fonte.carregar(arquivo,width,height)){
                 table.put(nome,fonte);
                 carregou=true;
             }

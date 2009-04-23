@@ -14,26 +14,31 @@ package org.tuga.middleware.graphic.imagem;
 
 import java.awt.Image;
 import java.awt.Toolkit;
-import java.io.File;
 import java.io.FileNotFoundException;
+import java.net.URL;
 
 public class Surface
 {
 	static public Image carregar(String arquivo) throws FileNotFoundException
 	{	
 		Image imagem = null;
-		
-		File f = new File(arquivo);
-		
-		System.out.println("");
-		System.out.print("[LOAD] Image:"+f.getAbsolutePath());
-		
-		if (f.exists()){
-			imagem = Toolkit.getDefaultToolkit().getImage(arquivo);
-		} else {
-			throw new FileNotFoundException("File Not Exist: "+arquivo);
-		}
-	
+			
+		//Verificar se faz parte de distribuição padrão da sun
+        ClassLoader classLoader = com.sun.org.apache.bcel.internal.util.ClassLoader.getSystemClassLoader();
+
+        URL res = classLoader.getResource(arquivo);
+
+        System.out.println("");  
+
+        System.out.print("[LOAD] Image:"+arquivo);          
+        if (res!=null){
+            System.out.print(" "+res.getFile());  
+            
+            imagem = Toolkit.getDefaultToolkit().getImage(res);
+        } else {
+            throw new FileNotFoundException("File Not Exist: "+arquivo);
+        }
+
 		return imagem;
 
 	}
