@@ -1,8 +1,8 @@
 #!/bin/sh
 
-export VERSAO=1.0
+export VERSAO=1.1
 export DISTRO=/home/desenvolvimento/tuga-sdk/distro/TuGA
-export TMP_DIR=/tmp/tuga-sdk/tuga.tview
+export TMP_DIR=/tmp/tuga-sdk/tuga
 export PROJETO_DIR=/home/desenvolvimento/tuga-sdk/distro/TuGA/current
 
 echo "Criando: TuGA.Runtime $VERSAO"
