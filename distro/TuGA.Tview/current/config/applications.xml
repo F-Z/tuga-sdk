@@ -1,5 +1,18 @@
 <APPLICATIONS>
     <APPLICATION>
+<<<<<<< .mine
+        <NAME>Jar</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/distro/Exemplos/current</PATH>
+        <XLET>exemplo.TuGA.ex01.Xletmain</XLET>
+    </APPLICATION>
+    <APPLICATION>
+        <NAME>Sprite</NAME>
+        <PATH>/home/desenvolvimento/tuga-sdk/trunk/Demo/bin</PATH>
+        <XLET>sprite.Xletmain</XLET>
+    </APPLICATION>
+    <APPLICATION>
+=======
+>>>>>>> .r94
         <NAME>Tuga.ex01</NAME>
         <PATH>/home/desenvolvimento/tuga-sdk/project/Exemplos/TuGA.ex01/bin</PATH>
         <XLET>exemplo.TuGA.ex01.Xletmain</XLET>
