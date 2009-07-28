@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export VERSAO=1.1
+export VERSAO=1.2
 export DISTRO=/home/desenvolvimento/tuga-sdk/distro/TuGA
 export TMP_DIR=/tmp/tuga-sdk/tuga
 export PROJETO_DIR=/home/desenvolvimento/tuga-sdk/distro/TuGA/current
