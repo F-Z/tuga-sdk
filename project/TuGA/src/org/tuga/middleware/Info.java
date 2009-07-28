@@ -18,6 +18,8 @@ import java.awt.GraphicsEnvironment;
 public class Info
 {
 
+    final static protected String VERSION = "TuGA.Runtime 1.2";
+    
 	static protected String deviceType(int id)
 	{
 		String tipo = "desconhecido";
@@ -43,6 +45,7 @@ public class Info
 	    GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
 	    GraphicsDevice gd = ge.getDefaultScreenDevice();
 	    
+	    System.out.println("[MIDD] Version:"+VERSION);
 	    System.out.println("[SYST] Device:"+deviceType(gd.getType()) + " (" +gd.getIDstring()+")");    
 	}
 
