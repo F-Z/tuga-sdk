@@ -1,0 +1,72 @@
+# TuGA.Runtime #
+
+## Camadas ##
+| ![http://tuga-sdk.googlecode.com/svn/docs/figuras/tuga_camadas.jpg](http://tuga-sdk.googlecode.com/svn/docs/figuras/tuga_camadas.jpg) | _Figura 1. Proposta de modelo de camadas_ |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+
+Como podemos observar na Figura 1, a plataforma TuGA propõe um possível modelo de camadas, porém como sabemos dificilmente uma camada poderá ou deverá suportar todas os recursos necessários.
+
+| ![http://tuga-sdk.googlecode.com/svn/docs/figuras/tuga_pacotes.jpg](http://tuga-sdk.googlecode.com/svn/docs/figuras/tuga_pacotes.jpg) | _Figura 2. Pacotes do TuGA.Runtime_ |
+|:--------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------|
+
+Onde, a plataforma TuGA apresentará grande interação com os recursos fornecidos pelo ambiente java, e poderá fazer interface com a camada ginga(quando esta for disponibilizada para o público - Previsão Outubro de 2008). Podemos ver que a camada TuGA é divida em dois principais pacotes:
+
+  * org.tuga.middleware, _camada_ responsável por toda a interface de baixo nível do API, provendo o gerenciamento de recursos básicos, como:
+    * Suporte ao Gerenciamento de Eventos;
+    * Suporte ao Carregamento de Imagens;
+    * Suporte a definição de transparência (colorkey);
+  * org.tuga.framework, _camada_ responsável pelo suporte ao desenvolvimento de jogos, provendo recursos como:
+    * Sprites animados;
+    * Layers (tilemaps);
+    * Gerenciador e Implementação de Sistema de Partículas;
+    * Gerenciador e Implementação de Sistema de Escrita (font bitmap);
+    * Gerenciador e Implementação de Sistema de Som;
+    * Controle do FPS (Frames por Segundo);
+    * Gerenciador de Surfaces (Cache de Imagens);
+    * GAM - Game Abstract Model, modelo de implementação de jogo;
+
+_Obs.1: Alguns recursos citados ainda não foram implementados em sua totalidade ou parcialidade, existem outros recursos que são desejados porém tem menor prioridade para a disponibilização._
+
+_Obs.2: Caso tenha interesse em ajudar na implementação dos recursos citados ou de novos, entre em contato, por ser um Software Livre, contamos com o trabalho voluntário das pessoas_
+
+
+---
+
+## LOG ##
+O processo de depuração de um xlet, é um pouco complexo, principalmente por não termos suporte nativo nas principais IDEs para depuração deste ambiente, visto que até o momento, as ides não disponibilizam de um container xlet (algo similar ao container de um middlet ou applet), o que dificulta e muito a descoberta e prevenção de erros.
+Tentando reduzir os imprevistos, o TuGA.Runtime, disponibiliza por meio de logs os principais estados da aplicação, como podemos observar na Figura 3.
+
+
+| ![http://tuga-sdk.googlecode.com/svn/docs/figuras/TuGA.console.01.jpg](http://tuga-sdk.googlecode.com/svn/docs/figuras/TuGA.console.01.jpg) | _Figura 3. Shell Linux com as informações do log_ |
+|:--------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
+
+
+Para melhor entendermos o que ocorre nos logs, as mensagens foram categorizadas de acordo com sua origem e seu grau de importancia. O código é delimitado por '[' e ']', sendo representado por quatro(4) caracteres, os quais as palavras chaves tem o seguinte significado:
+  * MIDD, MIDDleware informa sobre os processo de gerenciamento básico;
+  * SYST, SYSTem informa sobre as características do ambiente Java, Sistema Operacional e dispositivos;
+  * -GBF, GBFramework informa sobre o funcionamento do framework para jogos;
+
+  * LOAD, informa sobre o carregamento de arquivos;
+  * PROC, informa sobre algum processamento mais demorado(pesado) que seja critico;
+  * DELE, informa sobre a remoção(delete) de recursos;
+
+Podemos ainda encontrar marcadores de inicio e fim, como pode ser visto na Figura 3, onde temos:
+
+```
+[_GBF]-> WriteSystemManager - size:1
+[DELE] Font: 'texto' [Ok]
+[_GBF]<- WriteSystemManager
+```
+
+Onde o par de setas '->' e '<-' informam inicio e fim da operação, no caso a classe WriteSystemManager é um container que está removendo todos os objetos que gerencia.
+
+
+---
+
+# Download #
+
+Para baixar escolha a versão desejada:
+
+  * TuGA.Runtime.1.1
+    * [in Oloho](https://www.ohloh.net/projects/tuga/download?package=TuGA.Runtime&release=v1.1)
+    * [in GoogleCode](http://tuga-sdk.googlecode.com/files/TuGA.Runtime.1.1.bin.all.zip)

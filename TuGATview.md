@@ -1,0 +1,22 @@
+# TuGA.Tview #
+É o software capaz de emular algumas funções dos dispositivos(set-top-box) receptores da TV Digital.
+
+O TuGA.Tview, é na verdade uma composição dos seguintes recursos:
+  * Xletview, um emulador opensource para xlet(classes especiais do JavaTV);
+  * Library, o ambiente acompanha as principais libraries para a execução e desenvolvimento de seus programas;
+
+| ![http://tuga-sdk.googlecode.com/svn/docs/figuras/TuGA.Tview.01.jpg](http://tuga-sdk.googlecode.com/svn/docs/figuras/TuGA.Tview.01.jpg) | Figura 1. Emulador TuGA.Tview (_baseado no Xletview_) |
+|:----------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
+
+Onde o software livre [Xletview](http://xletview.sourceforge.net) (GPL), foi modificado para incorporar algumas funcionalidades para melhorar sua simulação. Onde destacamos:
+
+  * Sistema de Eventos: Tratamento no sistema de eventos do controle remoto, ao clicar nas opções do controle, os eventos necessários são gerados e lançados para o ambiente, o que por sua vez permite que o middleware do TuGA (TuGA.Runtime) possa tratar os eventos para os jogos;
+  * xjavax.io.File: Tratamento do método para verificação da existência do arquivo, pois no ambiente de simulação deve-se considerar apenas os paths referentes a aplicação, evitando assim a utilização de paths absolutos para o carregamento de imagens e outros;
+
+
+# Download #
+Para baixar escolha a versão desejada:
+
+  * TuGA.Tview.1.0
+    * [in Ohloh](https://www.ohloh.net/projects/tuga/download?package=TuGA.Tview&release=v1.0)
+    * [in GoogleCode](http://tuga-sdk.googlecode.com/files/TuGA.Tview.1.0.bin.all.zip)
